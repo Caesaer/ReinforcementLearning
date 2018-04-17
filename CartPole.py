@@ -2,7 +2,7 @@ import numpy as np
 import gym
 import tensorflow as tf
 
-env = gym.make('ReinforcementLearnig-v0')
+env = gym.make('CartPole-v0')
 env.reset()
 H = 50
 batch_size = 25
